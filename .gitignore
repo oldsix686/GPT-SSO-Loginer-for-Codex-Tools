@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+artifacts/
+profiles/
+emails.txt
+emails.txt.*
+used-emails.txt
+*.bak
+*.log
+
+accounts.json
+accounts.json.*

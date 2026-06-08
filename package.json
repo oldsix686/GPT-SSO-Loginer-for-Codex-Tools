@@ -1,0 +1,19 @@
+{
+  "name": "gpt-sso-loginer",
+  "version": "0.1.0",
+  "description": "Batch SSO login helper for Codex/OpenAI accounts and codex-tools import.",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "login": "node src/index.js",
+    "login-one": "node src/login-one.js",
+    "real-chrome": "node src/start-real-chrome.js",
+    "platform-login": "node src/platform-login.js",
+    "sync-platform-emails": "node src/sync-platform-emails.js",
+    "install-browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.53.2"
+  },
+  "devDependencies": {}
+}
